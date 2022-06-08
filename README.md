@@ -24,4 +24,9 @@ Usage
 Execute the `uvicorn main:app` command in the console, ensure that the port 8000 is not occupied, if need be, add
 the `--port *YOUR_PORT*` flag.
 
+You can also issue direct API request using [Heroku](https://www.heroku.com), for
+example, [winning](https://machine-learning-model-server.herokuapp.com/machine_learning_models/winning?club1=Barcelona&club2=Real%20Madrid)
+and
+[goals](https://machine-learning-model-server.herokuapp.com/machine_learning_models/goals?shots=10&shots_on_target=20).
+
 --------
